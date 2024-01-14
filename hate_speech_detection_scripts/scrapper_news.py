@@ -47,7 +47,8 @@ def main(language):
 
 
 if __name__ == '__main__':
-    main()
+    language = 'ukrainian'
+    main(language)
     # while True:
     #    main()
     #    time.sleep(3600)
