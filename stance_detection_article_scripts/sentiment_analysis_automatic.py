@@ -3,7 +3,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from typing import List
 import torch
 import re
-
+import typing
 
 class SentimentAnalysisProcessor:
     def __init__(self, model_name: str = "oliverguhr/german-sentiment-bert"):
